@@ -4,16 +4,26 @@ jsonDB is a versatile and easy-to-use database module designed to work seamlessl
 
 ## What jsonDB is:
 
-    - A cross-platform database module supporting Deno, Node.js, and browser environments
-    - A simple interface for interacting with JSON data stored in files
-    - Designed for lightweight applications that do not require a full-featured database
-    - Ideal for managing configuration files, temporary data storage, or small-scale projects
+-   A cross-platform database module supporting Deno, Node.js, and browser environments
+
+-   A simple interface for interacting with JSON data stored in files
+
+-   Designed for lightweight applications that do not require a full-featured database
+    Ideal for managing configuration files, temporary data storage, or small-scale projects
 
 ## What jsonDB is not:
 
-    - A replacement for full-fledged database systems like MongoDB, PostgreSQL, or MySQL
-    - Suitable for applications that require advanced querying capabilities, transactions, or * real-time data synchronization
-    - Optimized for high-performance or large-scale applications with substantial storage requirements or complex data relationships
+-   A replacement for full-fledged database systems like MongoDB, PostgreSQL, or MySQL
+
+-   Suitable for applications that require advanced querying capabilities, transactions, or real-time data synchronization
+
+-   Optimized for high-performance or large-scale applications with substantial storage requirements or complex data relationships
+
+## Usage
+
+```js
+import { jsonDB } from "";
+```
 
 ## Disclaimer: Work-in-Progress
 
