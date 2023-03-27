@@ -21,6 +21,10 @@ jsonDB is a versatile and easy-to-use database module designed to work seamlessl
 
 ## Usage
 
+```html
+<script src="jsonDB/mod.js" type="module"></script>
+```
+
 ```js
 import { jsonDB } from "";
 ```
