@@ -1,4 +1,4 @@
-# jsonDB: jsonDB: A Lightweight, Cross-Environment JSON Database Module (Deno Support in Progress)
+# jsonDB: A Lightweight, Cross-Environment JSON Database Module (Deno Support in Progress)
 
 jsonDB is a versatile and easy-to-use database module designed to work seamlessly with Deno, Node.js, and browser environments. The primary focus is currently on Deno support, with Node.js and browser support to follow. It enables developers to perform essential CRUD operations on JSON data stored as documents, providing a lightweight and flexible solution for various applications.
 
