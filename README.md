@@ -1,4 +1,4 @@
-# jsonDB: jsonDB: A Lightweight JSON Database Module for Deno
+# jsonDB: A Lightweight JSON Database Module for Deno
 
 jsonDB is an easy-to-use database module designed specifically for the Deno runtime environment. It allows developers to perform essential CRUD operations on JSON data stored as documents, offering a lightweight and flexible solution for a variety of applications.
 
