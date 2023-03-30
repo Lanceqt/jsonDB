@@ -1,5 +1,5 @@
 import { jsonDB } from "./jsonDB/mod.ts";
 
-const testing = new jsonDB("./jsonDB/testdata/test.json");
+const db = new jsonDB("./testdata/test.json");
 
-await testing.create({ key: "value" });
+await db.create({ key: "value" });
