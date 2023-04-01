@@ -1,8 +1,10 @@
 export class jsonDB {
     private dbFilePath: string;
+    private devMode: boolean;
 
-    constructor(dbFilePath: string) {
+    constructor(dbFilePath: string, devMode: boolean = false) {
         this.dbFilePath = dbFilePath;
+        this.devMode = devMode;
     }
 
     async create(data: Record<string, unknown>): Promise<string> {
@@ -13,7 +15,12 @@ export class jsonDB {
 
         jsonData[id] = data;
 
-        await Deno.writeTextFile(this.dbFilePath, JSON.stringify(jsonData));
+        const jsonString = this.devMode
+            ? JSON.stringify(jsonData, null, 2)
+            : JSON.stringify(jsonData);
+        console.log(`Created JSON document in: ${this.dbFilePath} \n${jsonString}`);
+
+        await Deno.writeTextFile(this.dbFilePath, jsonString);
 
         return id;
     }
